@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.acorpas.tmdbmoviechallenge.R
+import com.acorpas.tmdbmoviechallenge.moviesList.MoviesActivity
 import java.util.concurrent.TimeUnit
 
 /**
@@ -24,6 +25,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun navigateToMainScreen() {
+        val intent = MoviesActivity.callingIntent(this)
+        startActivity(intent)
         finish()
     }
 
