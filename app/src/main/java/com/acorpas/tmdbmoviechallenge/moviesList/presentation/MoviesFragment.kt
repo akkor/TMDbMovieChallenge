@@ -1,4 +1,4 @@
-package com.acorpas.tmdbmoviechallenge.moviesList
+package com.acorpas.tmdbmoviechallenge.moviesList.presentation
 
 import com.acorpas.tmdbmoviechallenge.R
 import com.acorpas.tmdbmoviechallenge.core.platform.BaseFragment

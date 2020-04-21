@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.acorpas.tmdbmoviechallenge.R
-import com.acorpas.tmdbmoviechallenge.moviesList.MoviesActivity
+import com.acorpas.tmdbmoviechallenge.moviesList.presentation.MoviesActivity
 import java.util.concurrent.TimeUnit
 
 /**

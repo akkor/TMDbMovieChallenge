@@ -1,16 +1,13 @@
-package com.acorpas.tmdbmoviechallenge.moviesList
+package com.acorpas.tmdbmoviechallenge.moviesList.presentation
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import com.acorpas.tmdbmoviechallenge.R
 import com.acorpas.tmdbmoviechallenge.core.platform.BaseActivity
-import com.acorpas.tmdbmoviechallenge.core.platform.BaseFragment
 
 class MoviesActivity : BaseActivity() {
 
-    override fun fragment() = MoviesFragment()
+    override fun fragment() =
+        MoviesFragment()
 
 
     companion object {
