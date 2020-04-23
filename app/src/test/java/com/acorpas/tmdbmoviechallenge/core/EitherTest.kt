@@ -13,20 +13,24 @@ class EitherTest {
 
     @Test
     fun `Either Right should return correct type`() {
-        val result = Either.Right("IronMan")
+        val result = Either.Right(TEST_STRING)
 
         assertTrue(result.isRight)
         assertFalse(result.isLeft)
-        assertTrue(result.b == "IronMan")
+        assertTrue(result.b == TEST_STRING)
 
     }
 
     @Test
     fun `Either Left should return correct type`() {
-        val result = Either.Left("IronMan")
+        val result = Either.Left(TEST_STRING)
 
         assertTrue(result.isLeft)
         assertFalse(result.isRight)
-        assertTrue(result.a == "IronMan")
+        assertTrue(result.a == TEST_STRING)
+    }
+
+    companion object {
+        private const val TEST_STRING = "IronMan"
     }
 }
