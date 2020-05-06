@@ -5,7 +5,7 @@ import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 /**
- * @author Mango
+ * @author acorpas
  * @version 1.0 2020-04-22
  */
 

@@ -6,7 +6,7 @@ import org.junit.Test
 
 
 /**
- * @author Mango
+ * @author acorpas
  * @version 1.0 2020-04-23
  */
 class EitherTest {

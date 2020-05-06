@@ -6,7 +6,7 @@ import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
 /**
- * @author Mango
+ * @author acorpas
  * @version 1.0 2020-04-17
  */
 

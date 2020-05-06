@@ -5,7 +5,7 @@ import com.acorpas.tmdbmoviechallenge.core.platform.BaseFragment
 import org.koin.android.ext.android.inject
 
 /**
- * @author Mango
+ * @author acorpas
  * @version 1.0 2020-04-21
  */
 

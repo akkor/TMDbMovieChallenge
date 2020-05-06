@@ -1,7 +1,7 @@
 package com.acorpas.tmdbmoviechallenge.core
 
 /**
- * @author Mango
+ * @author acorpas
  * @version 1.0 2020-04-21
  */
 

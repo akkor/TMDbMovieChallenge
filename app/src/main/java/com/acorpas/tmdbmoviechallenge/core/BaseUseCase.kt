@@ -1,9 +1,12 @@
 package com.acorpas.tmdbmoviechallenge.core
 
-import kotlinx.coroutines.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.launch
 
 /**
- * @author Mango
+ * @author acorpas
  * @version 1.0 2020-04-21
  */
 

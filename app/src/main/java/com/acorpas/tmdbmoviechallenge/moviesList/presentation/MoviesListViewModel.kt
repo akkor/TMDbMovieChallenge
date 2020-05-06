@@ -3,7 +3,7 @@ package com.acorpas.tmdbmoviechallenge.moviesList.presentation
 import androidx.lifecycle.ViewModel
 
 /**
- * @author Mango
+ * @author acorpas
  * @version 1.0 2020-04-22
  */
 

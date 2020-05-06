@@ -8,7 +8,7 @@ import com.acorpas.tmdbmoviechallenge.moviesList.presentation.MoviesActivity
 import java.util.concurrent.TimeUnit
 
 /**
- * @author Mango
+ * @author acorpas
  * @version 1.0 2020-04-17
  */
 
